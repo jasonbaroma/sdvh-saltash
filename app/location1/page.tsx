@@ -5,7 +5,7 @@ import { HomePage } from "@/components/home-page";
 export default function LocationPage() {
   const locationHeroImage = {
     slot: "location1-hero",
-    src: "/images/torpoint-hero-country-road.jpg",
+    src: "/images/torpoint-hero-country-road.jpeg",
     alt: "Grey rental car travelling on a road near Torpoint with harbour water and Cornish slopes behind",
   };
 

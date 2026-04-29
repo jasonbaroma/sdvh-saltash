@@ -5,7 +5,7 @@ import { HomePage } from "@/components/home-page";
 export default function LocationPage() {
   const locationHeroImage = {
     slot: "location3-hero",
-    src: "/images/callington-hero-country-road.jpg",
+    src: "/images/callington-hero-country-road.jpeg",
     alt: "Blue rental car on a rural route near Ivybridge with valley views and moorland backdrop",
   };
 
