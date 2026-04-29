@@ -6,37 +6,37 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location2-hero",
     src: "/images/liskeard-hero-country-road.jpg",
-    alt: "{{LOCATION2_HERO_IMAGE_ALT}}",
+    alt: "White rental van on a gently rising country road near Liskeard with fields and hills",
   };
 
   return (
     <HomePage
-      currentLocationLabel="{{LOCATION_2_NAME}}"
+      currentLocationLabel="Liskeard"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="{{LOCATION2_HERO_TITLE}}"
-      heroDescription="{{LOCATION2_HERO_DESCRIPTION}}"
-      serviceAreasTitle="{{LOCATION2_SERVICE_AREAS_TITLE}}"
-      serviceAreasDescription="{{LOCATION2_SERVICE_AREAS_DESCRIPTION}}"
-      infoContentSectionKicker="{{LOCATION2_INFO_CONTENT_SECTION_KICKER}}"
-      infoContentSectionTitle="{{LOCATION2_INFO_CONTENT_SECTION_TITLE}}"
-      infoContentSectionIntro="{{LOCATION2_INFO_CONTENT_SECTION_INTRO}}"
-      infoContentBlock1Title="{{LOCATION2_INFO_CONTENT_BLOCK_1_TITLE}}"
-      infoContentBlock1Body="{{LOCATION2_INFO_CONTENT_BLOCK_1_BODY}}"
-      infoContentBlock2Title="{{LOCATION2_INFO_CONTENT_BLOCK_2_TITLE}}"
-      infoContentBlock2Body="{{LOCATION2_INFO_CONTENT_BLOCK_2_BODY}}"
-      infoContentBlock3Title="{{LOCATION2_INFO_CONTENT_BLOCK_3_TITLE}}"
-      infoContentBlock3Body="{{LOCATION2_INFO_CONTENT_BLOCK_3_BODY}}"
-      bottomCtaTitle="{{LOCATION2_BOTTOM_CTA_TITLE}}"
-      bottomCtaDescription="{{LOCATION2_BOTTOM_CTA_DESCRIPTION}}"
-      secondaryCtaTitle="{{LOCATION2_SECONDARY_CTA_TITLE}}"
-      secondaryCtaDescription="{{LOCATION2_SECONDARY_CTA_DESCRIPTION}}"
+      heroTitle="Vehicle Hire Liskeard"
+      heroDescription="Vehicle Hire Liskeard for work, moving days, family travel, and rural journeys across Cornwall. A flexible fleet with cars, vans, minibuses, and trucks available."
+      serviceAreasTitle="Covering Liskeard and surrounding areas"
+      serviceAreasDescription="Our vehicle hire coverage includes Liskeard and nearby communities, supporting local travel, business use, property moves, and longer-distance journeys."
+      infoContentSectionKicker="Useful hire guidance"
+      infoContentSectionTitle="How vehicle hire fits everyday travel in Liskeard"
+      infoContentSectionIntro="In Liskeard, vehicle hire is often about flexibility. One day it may be a practical van for moving goods, the next a family car or minibus for a journey that needs more space and less compromise."
+      infoContentBlock1Title="Useful for town and rural travel"
+      infoContentBlock1Body="Liskeard is a practical base for reaching surrounding villages, farms, business premises, and wider Cornwall routes. Hiring a suitable vehicle can make those mixed urban and rural journeys far easier to manage."
+      infoContentBlock2Title="Choose for the job, not just the size"
+      infoContentBlock2Body="For removals, equipment runs, or stock movement, having the right van or truck matters more than simply choosing the biggest vehicle. We can help you select something workable for access, loading, and distance."
+      infoContentBlock3Title="A good base for longer drives"
+      infoContentBlock3Body="Liskeard also suits longer onward travel toward the coast, Plymouth, or deeper into Cornwall. Many customers book cars or minibuses when they need extra seats, comfort, or reliability for a planned trip."
+      bottomCtaTitle="Arrange your Liskeard vehicle hire"
+      bottomCtaDescription="From practical van hire to comfortable cars and larger group or work vehicles, we can help Saltash Road and town-centre customers book the right option in Liskeard."
+      secondaryCtaTitle="Talk through your Liskeard plans"
+      secondaryCtaDescription="If you are unsure which vehicle suits your route, load, or passenger numbers, we can help you narrow it down for your Liskeard booking."
       faqs={[
-        { question: "{{LOCATION2_FAQ_1_QUESTION}}", answer: "{{LOCATION2_FAQ_1_ANSWER}}" },
-        { question: "{{LOCATION2_FAQ_2_QUESTION}}", answer: "{{LOCATION2_FAQ_2_ANSWER}}" },
-        { question: "{{LOCATION2_FAQ_3_QUESTION}}", answer: "{{LOCATION2_FAQ_3_ANSWER}}" },
-        { question: "{{LOCATION2_FAQ_4_QUESTION}}", answer: "{{LOCATION2_FAQ_4_ANSWER}}" },
-        { question: "{{LOCATION2_FAQ_5_QUESTION}}", answer: "{{LOCATION2_FAQ_5_ANSWER}}" },
+        { question: "Is Liskeard vehicle hire suitable for moving house?", answer: "Yes, we regularly help with van hire for home moves, furniture collection, and trade transport, as well as cars, minibuses, and trucks." },
+        { question: "Can a hire vehicle be delivered in Liskeard?", answer: "Delivery can often be arranged, which is useful if you want the vehicle brought to your home, workplace, or another convenient address in the area." },
+        { question: "Do you offer one-way hire from Liskeard?", answer: "One-way hire is available on selected rentals. If your journey starts in Liskeard and ends elsewhere, ask us to check the return options." },
+        { question: "Can local businesses hire vehicles in Liskeard?", answer: "Many vehicles are available for business use, including vans for deliveries and trucks for heavier site or trade work. We can help with short-term and longer hires." },
+        { question: "Can I take a Liskeard hire vehicle to Europe?", answer: "Some vehicles can travel into Europe by agreement in advance. Speak to us before booking so we can confirm the suitable vehicle and required documents." },
       ]}
     />
   );

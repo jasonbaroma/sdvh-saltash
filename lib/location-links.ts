@@ -1,7 +1,7 @@
 import { slugifyLocation } from "@/lib/utils";
 
 export const mainLocationLink = {
-  label: "{{MAIN_LOCATION_NAME}}",
+  label: "Saltash",
   href: "/",
 };
 
@@ -14,55 +14,55 @@ type LocationMetadata = {
 };
 
 const mainLocationMetadata: LocationMetadata = {
-  label: "{{MAIN_LOCATION_NAME}}",
+  label: "Saltash",
   href: "/",
-  county: "{{MAIN_LOCATION_COUNTY}}",
-  region: "{{MAIN_LOCATION_REGION}}",
-  population: "{{MAIN_LOCATION_POPULATION}}",
+  county: "Cornwall",
+  region: "South West England",
+  population: "16269",
 };
 
 const LOCATION_METADATA: LocationMetadata[] = [
   {
-    label: "{{LOCATION_1_NAME}}",
-    href: `/${slugifyLocation("{{LOCATION_1_NAME}}")}`,
-    county: "{{LOCATION_1_COUNTY}}",
-    region: "{{LOCATION_1_REGION}}",
-    population: "{{LOCATION_1_POPULATION}}",
+    label: "Torpoint",
+    href: `/${slugifyLocation("Torpoint")}`,
+    county: "Cornwall",
+    region: "South West England",
+    population: "8564",
   },
   {
-    label: "{{LOCATION_2_NAME}}",
-    href: `/${slugifyLocation("{{LOCATION_2_NAME}}")}`,
-    county: "{{LOCATION_2_COUNTY}}",
-    region: "{{LOCATION_2_REGION}}",
-    population: "{{LOCATION_2_POPULATION}}",
+    label: "Liskeard",
+    href: `/${slugifyLocation("Liskeard")}`,
+    county: "Cornwall",
+    region: "South West England",
+    population: "9202",
   },
   {
-    label: "{{LOCATION_3_NAME}}",
-    href: `/${slugifyLocation("{{LOCATION_3_NAME}}")}`,
-    county: "{{LOCATION_3_COUNTY}}",
-    region: "{{LOCATION_3_REGION}}",
-    population: "{{LOCATION_3_POPULATION}}",
+    label: "Ivybridge",
+    href: `/${slugifyLocation("Ivybridge")}`,
+    county: "Devon",
+    region: "South West England",
+    population: "11951",
   },
   {
-    label: "{{LOCATION_4_NAME}}",
-    href: `/${slugifyLocation("{{LOCATION_4_NAME}}")}`,
-    county: "{{LOCATION_4_COUNTY}}",
-    region: "{{LOCATION_4_REGION}}",
-    population: "{{LOCATION_4_POPULATION}}",
+    label: "Yelverton",
+    href: `/${slugifyLocation("Yelverton")}`,
+    county: "Devon",
+    region: "South West England",
+    population: "6576",
   },
   {
-    label: "{{LOCATION_5_NAME}}",
-    href: `/${slugifyLocation("{{LOCATION_5_NAME}}")}`,
-    county: "{{LOCATION_5_COUNTY}}",
-    region: "{{LOCATION_5_REGION}}",
-    population: "{{LOCATION_5_POPULATION}}",
+    label: "Tavistock",
+    href: `/${slugifyLocation("Tavistock")}`,
+    county: "Devon",
+    region: "South West England",
+    population: "11708",
   },
   {
-    label: "{{LOCATION_6_NAME}}",
-    href: `/${slugifyLocation("{{LOCATION_6_NAME}}")}`,
-    county: "{{LOCATION_6_COUNTY}}",
-    region: "{{LOCATION_6_REGION}}",
-    population: "{{LOCATION_6_POPULATION}}",
+    label: "Callington",
+    href: `/${slugifyLocation("Callington")}`,
+    county: "Cornwall",
+    region: "South West England",
+    population: "5786",
   },
 ];
 

@@ -6,37 +6,37 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location4-hero",
     src: "/images/looe-hero-country-road.jpg",
-    alt: "{{LOCATION4_HERO_IMAGE_ALT}}",
+    alt: "Grey rental van on a scenic country lane near Yelverton with open moorland views",
   };
 
   return (
     <HomePage
-      currentLocationLabel="{{LOCATION_4_NAME}}"
+      currentLocationLabel="Yelverton"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="{{LOCATION4_HERO_TITLE}}"
-      heroDescription="{{LOCATION4_HERO_DESCRIPTION}}"
-      serviceAreasTitle="{{LOCATION4_SERVICE_AREAS_TITLE}}"
-      serviceAreasDescription="{{LOCATION4_SERVICE_AREAS_DESCRIPTION}}"
-      infoContentSectionKicker="{{LOCATION4_INFO_CONTENT_SECTION_KICKER}}"
-      infoContentSectionTitle="{{LOCATION4_INFO_CONTENT_SECTION_TITLE}}"
-      infoContentSectionIntro="{{LOCATION4_INFO_CONTENT_SECTION_INTRO}}"
-      infoContentBlock1Title="{{LOCATION4_INFO_CONTENT_BLOCK_1_TITLE}}"
-      infoContentBlock1Body="{{LOCATION4_INFO_CONTENT_BLOCK_1_BODY}}"
-      infoContentBlock2Title="{{LOCATION4_INFO_CONTENT_BLOCK_2_TITLE}}"
-      infoContentBlock2Body="{{LOCATION4_INFO_CONTENT_BLOCK_2_BODY}}"
-      infoContentBlock3Title="{{LOCATION4_INFO_CONTENT_BLOCK_3_TITLE}}"
-      infoContentBlock3Body="{{LOCATION4_INFO_CONTENT_BLOCK_3_BODY}}"
-      bottomCtaTitle="{{LOCATION4_BOTTOM_CTA_TITLE}}"
-      bottomCtaDescription="{{LOCATION4_BOTTOM_CTA_DESCRIPTION}}"
-      secondaryCtaTitle="{{LOCATION4_SECONDARY_CTA_TITLE}}"
-      secondaryCtaDescription="{{LOCATION4_SECONDARY_CTA_DESCRIPTION}}"
+      heroTitle="Vehicle Hire Tavistock"
+      heroDescription="Vehicle Hire Tavistock for town journeys, moorland routes, moving jobs, and organised group travel. Cars, vans, minibuses, and trucks available to suit different needs."
+      serviceAreasTitle="Serving Tavistock and west Devon routes"
+      serviceAreasDescription="Our service covers Tavistock and nearby parts of west Devon, with flexible rental options for personal travel, business use, and more demanding transport jobs."
+      infoContentSectionKicker="Useful hire guidance"
+      infoContentSectionTitle="Vehicle hire that suits how Tavistock journeys actually work"
+      infoContentSectionIntro="Tavistock customers often need a hire vehicle that can handle varied travel patterns, from nearby errands to longer drives across Devon and Cornwall. The most useful bookings are usually the ones planned around the journey rather than just the calendar."
+      infoContentBlock1Title="Well suited to mixed-distance travel"
+      infoContentBlock1Body="Tavistock sits in a location where hires may involve town driving one moment and wider rural routes the next. Choosing a vehicle with the right comfort, visibility, and carrying space makes those changes easier to manage."
+      infoContentBlock2Title="A practical choice for groups"
+      infoContentBlock2Body="For events, family outings, and group travel, a minibus can be far simpler than coordinating several cars. It gives everyone one meeting point, one route, and one return plan."
+      infoContentBlock3Title="Helpful for local business needs"
+      infoContentBlock3Body="If the hire is for work, whether that means deliveries, tools, or site materials, selecting the correct van or truck can help avoid wasted space or unnecessary repeat runs."
+      bottomCtaTitle="Plan your Tavistock rental"
+      bottomCtaDescription="If you need extra seats, more boot space, or a larger working vehicle from Tavistock, we can help you book something suitable without overcomplicating it."
+      secondaryCtaTitle="Not sure which vehicle fits?"
+      secondaryCtaDescription="Let us know whether the priority is passengers, load space, or a longer route, and we will help shape the best Tavistock hire for it."
       faqs={[
-        { question: "{{LOCATION4_FAQ_1_QUESTION}}", answer: "{{LOCATION4_FAQ_1_ANSWER}}" },
-        { question: "{{LOCATION4_FAQ_2_QUESTION}}", answer: "{{LOCATION4_FAQ_2_ANSWER}}" },
-        { question: "{{LOCATION4_FAQ_3_QUESTION}}", answer: "{{LOCATION4_FAQ_3_ANSWER}}" },
-        { question: "{{LOCATION4_FAQ_4_QUESTION}}", answer: "{{LOCATION4_FAQ_4_ANSWER}}" },
-        { question: "{{LOCATION4_FAQ_5_QUESTION}}", answer: "{{LOCATION4_FAQ_5_ANSWER}}" },
+        { question: "Do you offer full vehicle hire options in Tavistock?", answer: "Yes, Tavistock customers can book from our wider fleet, including practical cars, vans for transport jobs, minibuses for group travel, and trucks for heavier work." },
+        { question: "Can the vehicle be brought to me in Tavistock?", answer: "That depends on the vehicle type and your route, but many hires can be arranged with delivery to a convenient local address." },
+        { question: "Is Tavistock vehicle hire suitable for business use?", answer: "Yes, many business customers hire for deliveries, site visits, stock movement, and temporary transport needs. Let us know the job and we will suggest a suitable vehicle." },
+        { question: "Can I book one-way hire from Tavistock?", answer: "One-way hire is available on selected bookings, which can be useful if your route does not naturally loop back to Tavistock." },
+        { question: "Are European trips possible with a Tavistock hire?", answer: "Some hires can be approved for European travel in advance. Contact us before booking so we can confirm which vehicles are eligible." },
       ]}
     />
   );

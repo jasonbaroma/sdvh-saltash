@@ -3,8 +3,8 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "{{META_TITLE}}",
-  description: "{{META_DESCRIPTION}}",
+  title: "Vehicle Hire Saltash | Cars, Vans, Minibuses & Trucks",
+  description: "Vehicle Hire Saltash for cars, vans, minibuses and trucks. Flexible rentals with local delivery options, one-way hire and UK-wide support.",
   icons: {
     icon: "https://sdvh.co.uk/wp-content/uploads/2023/02/cropped-FavIcon-32x32.png",
     apple: "https://sdvh.co.uk/wp-content/uploads/2023/02/cropped-FavIcon-180x180.png",

@@ -1,4 +1,4 @@
-export const companyName = "{{COMPANY_NAME}}";
-export const companyTagline = "{{COMPANY_TAGLINE}}";
-export const mainLocationName = "{{MAIN_LOCATION_NAME}}";
-export const siteUrl = "{{SITE_URL}}";
+export const companyName = "sdvh-saltash";
+export const companyTagline = "Flexible vehicle hire across Cornwall";
+export const mainLocationName = "Saltash";
+export const siteUrl = "https://sdvh-saltash.co.uk";
