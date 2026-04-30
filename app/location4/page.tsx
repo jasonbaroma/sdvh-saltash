@@ -6,37 +6,37 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location4-hero",
     src: "/images/looe-hero-country-road.jpeg",
-    alt: "Grey rental van on a scenic country lane near Yelverton with open moorland views",
+    alt: "Country road near Ivybridge bordered by farmland and trees under late afternoon light",
   };
 
   return (
     <HomePage
-      currentLocationLabel="Yelverton"
+      currentLocationLabel="Ivybridge"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="Vehicle Hire Tavistock"
-      heroDescription="Vehicle Hire Tavistock for town journeys, moorland routes, moving jobs, and organised group travel. Cars, vans, minibuses, and trucks available to suit different needs."
-      serviceAreasTitle="Serving Tavistock and west Devon routes"
-      serviceAreasDescription="Our service covers Tavistock and nearby parts of west Devon, with flexible rental options for personal travel, business use, and more demanding transport jobs."
+      heroTitle="Vehicle Hire in Ivybridge"
+      heroDescription="Vehicle hire in Ivybridge for Dartmoor access, home moves, trade work and everyday travel, with flexible options across cars, vans, minibuses and trucks."
+      serviceAreasTitle="Serving Ivybridge and the surrounding area"
+      serviceAreasDescription="We provide vehicle hire for Ivybridge and nearby parts of South Devon, supporting residential, commercial and leisure travel across the area."
       infoContentSectionKicker="Useful hire guidance"
-      infoContentSectionTitle="Vehicle hire that suits how Tavistock journeys actually work"
-      infoContentSectionIntro="Tavistock customers often need a hire vehicle that can handle varied travel patterns, from nearby errands to longer drives across Devon and Cornwall. The most useful bookings are usually the ones planned around the journey rather than just the calendar."
-      infoContentBlock1Title="Well suited to mixed-distance travel"
-      infoContentBlock1Body="Tavistock sits in a location where hires may involve town driving one moment and wider rural routes the next. Choosing a vehicle with the right comfort, visibility, and carrying space makes those changes easier to manage."
-      infoContentBlock2Title="A practical choice for groups"
-      infoContentBlock2Body="For events, family outings, and group travel, a minibus can be far simpler than coordinating several cars. It gives everyone one meeting point, one route, and one return plan."
-      infoContentBlock3Title="Helpful for local business needs"
-      infoContentBlock3Body="If the hire is for work, whether that means deliveries, tools, or site materials, selecting the correct van or truck can help avoid wasted space or unnecessary repeat runs."
-      bottomCtaTitle="Plan your Tavistock rental"
-      bottomCtaDescription="If you need extra seats, more boot space, or a larger working vehicle from Tavistock, we can help you book something suitable without overcomplicating it."
-      secondaryCtaTitle="Not sure which vehicle fits?"
-      secondaryCtaDescription="Let us know whether the priority is passengers, load space, or a longer route, and we will help shape the best Tavistock hire for it."
+      infoContentSectionTitle="Getting the most from vehicle hire in Ivybridge"
+      infoContentSectionIntro="Ivybridge is well placed for both local errands and longer runs, with quick access to the A38 and straightforward links towards Plymouth, South Hams and Dartmoor. That makes it a practical place to hire a vehicle whether you are moving equipment, organising group travel or covering temporary transport needs."
+      infoContentBlock1Title="Useful links via the A386"
+      infoContentBlock1Body="Tavistock sits on the A386, making it a practical base for travel toward Plymouth and north toward Okehampton. If you are hiring for business use or a longer leisure trip, that direct road link helps keep collection and onward travel straightforward."
+      infoContentBlock2Title="Prepare properly for Dartmoor driving"
+      infoContentBlock2Body="The town is a common starting point for Dartmoor journeys, but moorland roads can be narrower, more exposed and slower than drivers expect. If you are carrying equipment or travelling as a group, vehicle size and visibility matter more than they do on a standard town route."
+      infoContentBlock3Title="Think about town-centre access"
+      infoContentBlock3Body="Tavistock town centre has a busy layout around market areas and local shopping streets, so larger vans are often easier to manage when loading is planned outside peak times. For longer runs, many drivers sort fuel and supplies before leaving town."
+      bottomCtaTitle="Arrange your Ivybridge vehicle hire"
+      bottomCtaDescription="Tell us what you need in Ivybridge and we will help match the job with a suitable hire vehicle and practical booking arrangement."
+      secondaryCtaTitle="Compare hire options in Ivybridge"
+      secondaryCtaDescription="From compact cars to larger vans and trucks, we can talk through the best option for your Ivybridge journey or workload."
       faqs={[
-        { question: "Do you offer full vehicle hire options in Tavistock?", answer: "Yes, Tavistock customers can book from our wider fleet, including practical cars, vans for transport jobs, minibuses for group travel, and trucks for heavier work." },
-        { question: "Can the vehicle be brought to me in Tavistock?", answer: "That depends on the vehicle type and your route, but many hires can be arranged with delivery to a convenient local address." },
-        { question: "Is Tavistock vehicle hire suitable for business use?", answer: "Yes, many business customers hire for deliveries, site visits, stock movement, and temporary transport needs. Let us know the job and we will suggest a suitable vehicle." },
-        { question: "Can I book one-way hire from Tavistock?", answer: "One-way hire is available on selected bookings, which can be useful if your route does not naturally loop back to Tavistock." },
-        { question: "Are European trips possible with a Tavistock hire?", answer: "Some hires can be approved for European travel in advance. Contact us before booking so we can confirm which vehicles are eligible." },
+        { question: "Can I book different vehicle types in Tavistock?", answer: "Yes. We can arrange vehicle hire in Tavistock across cars, vans, minibuses and trucks for both personal and business use." },
+        { question: "Do you provide one-way rentals from Tavistock?", answer: "Yes, subject to the vehicle and route. One-way hire can be useful if your trip or job finishes away from Tavistock." },
+        { question: "Is delivery available in the Tavistock area?", answer: "Delivery and collection may be available, which can be helpful if you are based in town, on an estate or in nearby villages around the moor." },
+        { question: "Does Tavistock vehicle hire include insurance?", answer: "Insurance is commonly included within the rental setup, although the exact terms vary by vehicle and driver. We will explain what applies to your booking." },
+        { question: "Can I take a hire vehicle abroad from Tavistock?", answer: "Some vehicles can travel into Europe when agreed in advance. Ask early so we can confirm the suitable options and any document requirements." },
       ]}
     />
   );

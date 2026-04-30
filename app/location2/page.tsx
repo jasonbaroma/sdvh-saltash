@@ -6,7 +6,7 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location2-hero",
     src: "/images/liskeard-hero-country-road.jpeg",
-    alt: "White rental van on a gently rising country road near Liskeard with fields and hills",
+    alt: "Curving valley road near Liskeard with hedged fields in warm early autumn light",
   };
 
   return (
@@ -14,29 +14,29 @@ export default function LocationPage() {
       currentLocationLabel="Liskeard"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="Vehicle Hire Liskeard"
-      heroDescription="Vehicle Hire Liskeard for work, moving days, family travel, and rural journeys across Cornwall. A flexible fleet with cars, vans, minibuses, and trucks available."
-      serviceAreasTitle="Covering Liskeard and surrounding areas"
-      serviceAreasDescription="Our vehicle hire coverage includes Liskeard and nearby communities, supporting local travel, business use, property moves, and longer-distance journeys."
-      infoContentSectionKicker="Useful hire guidance"
-      infoContentSectionTitle="How vehicle hire fits everyday travel in Liskeard"
-      infoContentSectionIntro="In Liskeard, vehicle hire is often about flexibility. One day it may be a practical van for moving goods, the next a family car or minibus for a journey that needs more space and less compromise."
-      infoContentBlock1Title="Useful for town and rural travel"
-      infoContentBlock1Body="Liskeard is a practical base for reaching surrounding villages, farms, business premises, and wider Cornwall routes. Hiring a suitable vehicle can make those mixed urban and rural journeys far easier to manage."
-      infoContentBlock2Title="Choose for the job, not just the size"
-      infoContentBlock2Body="For removals, equipment runs, or stock movement, having the right van or truck matters more than simply choosing the biggest vehicle. We can help you select something workable for access, loading, and distance."
-      infoContentBlock3Title="A good base for longer drives"
-      infoContentBlock3Body="Liskeard also suits longer onward travel toward the coast, Plymouth, or deeper into Cornwall. Many customers book cars or minibuses when they need extra seats, comfort, or reliability for a planned trip."
-      bottomCtaTitle="Arrange your Liskeard vehicle hire"
-      bottomCtaDescription="From practical van hire to comfortable cars and larger group or work vehicles, we can help Saltash Road and town-centre customers book the right option in Liskeard."
-      secondaryCtaTitle="Talk through your Liskeard plans"
-      secondaryCtaDescription="If you are unsure which vehicle suits your route, load, or passenger numbers, we can help you narrow it down for your Liskeard booking."
+      heroTitle="Vehicle Hire in Liskeard"
+      heroDescription="Vehicle Hire Liskeard for drivers needing dependable cars, vans, minibuses and trucks for town journeys, business use, rural routes and travel across Cornwall."
+      serviceAreasTitle="Vehicle hire around Liskeard"
+      serviceAreasDescription="Our coverage extends across Liskeard and nearby parts of south east Cornwall, supporting personal and business hires with practical access to the main road network."
+      infoContentSectionKicker="Planning your hire"
+      infoContentSectionTitle="How vehicle hire works well in and around Liskeard"
+      infoContentSectionIntro="Liskeard is one of those towns where vehicle hire fits both everyday needs and longer regional travel. It is useful for local residents, nearby villages, trade customers and visitors who need more flexibility than rail links or bus routes can offer."
+      infoContentBlock1Title="A38 access makes planning simpler"
+      infoContentBlock1Body="Liskeard sits just off the A38, which makes it a strong pickup point for drivers heading east toward Saltash and Plymouth or west into Cornwall. If you are hiring for work, deliveries or a move, that direct trunk-road access can save a lot of time."
+      infoContentBlock2Title="Good place to sort fuel and supplies"
+      infoContentBlock2Body="For local stops, the Morrisons and retail areas around Plymouth Road are useful for fuel and supplies before setting off. That is especially handy if you are collecting a van for a property move or a truck for site work in the surrounding villages."
+      infoContentBlock3Title="Well placed for moorland and coast"
+      infoContentBlock3Body="Liskeard is often used as a starting point for Bodmin Moor, Siblyback Lake and south coast destinations such as Looe. If your route mixes town roads with rural stretches, choosing the right vehicle size and load space makes the journey more manageable."
+      bottomCtaTitle="Start your Liskeard booking"
+      bottomCtaDescription="Planning a trip, move or delivery from Liskeard? We can help arrange a suitable vehicle with flexible rental terms and clear support from the start."
+      secondaryCtaTitle="Get advice on your Liskeard rental"
+      secondaryCtaDescription="If you are unsure what size vehicle suits your Liskeard journey, we can help you compare options and keep the booking process straightforward."
       faqs={[
-        { question: "Is Liskeard vehicle hire suitable for moving house?", answer: "Yes, we regularly help with van hire for home moves, furniture collection, and trade transport, as well as cars, minibuses, and trucks." },
-        { question: "Can a hire vehicle be delivered in Liskeard?", answer: "Delivery can often be arranged, which is useful if you want the vehicle brought to your home, workplace, or another convenient address in the area." },
-        { question: "Do you offer one-way hire from Liskeard?", answer: "One-way hire is available on selected rentals. If your journey starts in Liskeard and ends elsewhere, ask us to check the return options." },
-        { question: "Can local businesses hire vehicles in Liskeard?", answer: "Many vehicles are available for business use, including vans for deliveries and trucks for heavier site or trade work. We can help with short-term and longer hires." },
-        { question: "Can I take a Liskeard hire vehicle to Europe?", answer: "Some vehicles can travel into Europe by agreement in advance. Speak to us before booking so we can confirm the suitable vehicle and required documents." },
+        { question: "Which vehicles are available for hire in Liskeard?", answer: "We offer a wide range of vehicle hire for Liskeard, including cars for daily travel, vans for moving jobs, minibuses for groups and trucks for heavier commercial use." },
+        { question: "Can you deliver a hire vehicle to Liskeard?", answer: "Yes, delivery and collection can often be arranged. This is useful if you want to avoid extra travel before starting your booking." },
+        { question: "Is one-way hire possible from Liskeard?", answer: "One-way rental is available on certain bookings. If your route ends in another part of the UK, ask us and we can check what is possible." },
+        { question: "Is insurance included with Liskeard vehicle hire?", answer: "Many hires include insurance as part of the booking structure. The exact cover and requirements depend on the vehicle and driver details." },
+        { question: "Can I take a Liskeard hire vehicle to Europe?", answer: "Some vehicles can be approved for European travel if arranged before collection. We will confirm availability and any extra documentation needed." },
       ]}
     />
   );

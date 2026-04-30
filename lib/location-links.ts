@@ -18,7 +18,7 @@ const mainLocationMetadata: LocationMetadata = {
   href: "/",
   county: "Cornwall",
   region: "South West England",
-  population: "16269",
+  population: "16908",
 };
 
 const LOCATION_METADATA: LocationMetadata[] = [
@@ -34,28 +34,28 @@ const LOCATION_METADATA: LocationMetadata[] = [
     href: `/${slugifyLocation("Liskeard")}`,
     county: "Cornwall",
     region: "South West England",
-    population: "9202",
+    population: "9205",
+  },
+  {
+    label: "Looe",
+    href: `/${slugifyLocation("Looe")}`,
+    county: "Cornwall",
+    region: "South West England",
+    population: "5280",
   },
   {
     label: "Ivybridge",
     href: `/${slugifyLocation("Ivybridge")}`,
     county: "Devon",
     region: "South West England",
-    population: "11951",
+    population: "12056",
   },
   {
-    label: "Yelverton",
-    href: `/${slugifyLocation("Yelverton")}`,
-    county: "Devon",
+    label: "Bodmin",
+    href: `/${slugifyLocation("Bodmin")}`,
+    county: "Cornwall",
     region: "South West England",
-    population: "6576",
-  },
-  {
-    label: "Tavistock",
-    href: `/${slugifyLocation("Tavistock")}`,
-    county: "Devon",
-    region: "South West England",
-    population: "11708",
+    population: "15797",
   },
   {
     label: "Callington",
@@ -83,3 +83,10 @@ export const locationSlugEntries = LOCATION_METADATA.map(({ label }, index) => (
   label,
   slug: slugifyLocation(label),
 }));
+
+export const mainLocationMetadata = {
+  name: mainLocationName,
+  county: 'Cornwall',
+  region: 'South West England',
+  population: '16908',
+}

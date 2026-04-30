@@ -6,37 +6,37 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location5-hero",
     src: "/images/millbrook-hero-country-road.jpeg",
-    alt: "White hire van driving through a green valley road near Tavistock in summer light",
+    alt: "Open road near Bodmin crossing rolling farmland under a bright spring sky",
   };
 
   return (
     <HomePage
-      currentLocationLabel="Tavistock"
+      currentLocationLabel="Bodmin"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="Vehicle Hire Launceston"
-      heroDescription="Vehicle Hire Launceston for cross-county travel, local transport jobs, family plans, and business use. Cars, vans, minibuses, and trucks available across a flexible fleet."
-      serviceAreasTitle="Serving Tavistock and nearby West Devon routes"
-      serviceAreasDescription="Our Tavistock coverage includes the town itself and surrounding routes across West Devon, with practical vehicle hire for local travel, deliveries, moves and longer trips."
-      infoContentSectionKicker="Local hire guidance"
-      infoContentSectionTitle="Vehicle hire that fits busy days around Tavistock"
-      infoContentSectionIntro="In Launceston, vehicle hire often supports journeys that stretch beyond the town itself. Whether the need is commercial or personal, having the right vehicle can make a busy route feel much more manageable."
-      infoContentBlock1Title="A practical base for wider travel"
-      infoContentBlock1Body="Launceston works as a strong starting point for travel in more than one direction, so hires here often support longer-distance plans rather than simple local loops. That makes vehicle choice especially important."
-      infoContentBlock2Title="Useful when one trip needs to count"
-      infoContentBlock2Body="If you are handling stock, equipment, or a home move, extra carrying capacity can save a lot of time. We can help you choose a van or truck that suits both the load and the route."
-      infoContentBlock3Title="Comfort matters on longer journeys"
-      infoContentBlock3Body="For personal travel, larger cars and minibuses are often a good fit when comfort, luggage space, or passenger numbers matter. That can be especially helpful for planned weekends and family journeys."
-      bottomCtaTitle="Need vehicle hire in Launceston?"
-      bottomCtaDescription="We help Launceston customers book straightforward vehicle hire for removals, business trips, deliveries, and family travel across the wider area."
-      secondaryCtaTitle="Plan your Tavistock booking"
-      secondaryCtaDescription="If you already know the dates and vehicle type you need, we can help you arrange a suitable hire for Tavistock and nearby areas."
+      heroTitle="Vehicle Hire in Bodmin"
+      heroDescription="Vehicle hire in Bodmin for Cornwall travel, removals, trade work and flexible day to day transport, backed by a broad fleet and practical booking support."
+      serviceAreasTitle="Vehicle hire around Bodmin and nearby areas"
+      serviceAreasDescription="We cover Bodmin and nearby Cornish routes, providing vehicle hire for households, local firms, visitors and drivers heading further across the region."
+      infoContentSectionKicker="Planning your hire"
+      infoContentSectionTitle="Useful hire planning for Bodmin travel"
+      infoContentSectionIntro="Bodmin sits at one of Cornwall's most useful road hubs, making it a sensible place to hire a vehicle for local driving or longer mileage. With the A30 nearby and easy connections towards the A38, Wadebridge, St Austell and the north coast, it works well for business trips, home projects and onward travel across the county."
+      infoContentBlock1Title="Fast links from the A38"
+      infoContentBlock1Body="Ivybridge benefits from immediate access to the A38 Devon Expressway, which makes it especially convenient for hires heading toward Plymouth, Exeter or deeper into the South Hams. For time-sensitive journeys, that direct route is a major advantage."
+      infoContentBlock2Title="A flexible base for mixed journey types"
+      infoContentBlock2Body="The town is popular with commuters and outdoor visitors, so hire needs can vary from short local car use to larger vehicles for equipment, bikes or group travel. If you are heading onto Dartmoor or into smaller country roads, practical vehicle choice matters."
+      infoContentBlock3Title="Plan ahead before leaving main routes"
+      infoContentBlock3Body="For vans and trucks, it helps to plan loading and fuel stops before leaving the town side of the A38 corridor. Once you branch into rural South Hams roads, stopping points can become more limited and access can feel tighter with a bigger vehicle."
+      bottomCtaTitle="Get Bodmin vehicle hire sorted"
+      bottomCtaDescription="For vehicle hire in Bodmin, contact us with your dates and planned use and we will help you choose a suitable vehicle from the wider fleet."
+      secondaryCtaTitle="Talk through your Bodmin hire"
+      secondaryCtaDescription="If you are weighing up vehicle hire in Bodmin, we can help you narrow down the right type of vehicle for the route, load and length of hire."
       faqs={[
-        { question: "Is Launceston a good base for longer hires?", answer: "Yes, Launceston is well placed for hires that continue across Cornwall or into Devon, and many vehicles are available with mileage terms that suit longer routes." },
-        { question: "What vehicle types are available in Launceston?", answer: "We offer a broad fleet, so you can enquire about cars, vans, minibuses, and trucks depending on the type of journey or work involved." },
-        { question: "Can you deliver a hire vehicle in Launceston?", answer: "Delivery is often possible and can save time if you need the hire to start from home, from a workplace, or close to a planned loading point." },
-        { question: "Do you provide one-way vehicle hire from Launceston?", answer: "Yes, one-way hire can be arranged on selected bookings. If you are finishing outside Launceston, ask us to check return options." },
-        { question: "Is insurance included with Launceston hires?", answer: "Insurance is included on standard hires, and we will explain any vehicle-specific requirements before you confirm the booking." },
+        { question: "Can I book vehicle hire in Bodmin for either personal or business use?", answer: "Yes, we regularly help customers arrange vehicle hire in Bodmin for personal and business use, including cars, vans, minibuses and larger commercial vehicles." },
+        { question: "Is Bodmin a good base for one way hire across Cornwall and beyond?", answer: "In many cases, yes. Delivery and collection can make things easier if you are hiring from home, work or a nearby site." },
+        { question: "What vehicle size is useful for moves or trade jobs around Bodmin?", answer: "Selected bookings can be arranged as one-way hires. This is often helpful for relocations, contract work and longer point-to-point journeys." },
+        { question: "Do I need a special licence for larger vehicles?", answer: "Many vehicles can be driven on a standard licence, though some larger categories may require extra eligibility checks. We will confirm this before booking." },
+        { question: "Can you help with longer vehicle hire periods in Bodmin?", answer: "Some hires can be approved for European travel if requested in advance. Let us know early so we can check the vehicle and travel requirements." },
       ]}
     />
   );

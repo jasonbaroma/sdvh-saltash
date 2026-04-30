@@ -6,7 +6,7 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location6-hero",
     src: "/images/callington-country-road.jpeg",
-    alt: "White rental van on a farmland route near Callington with hedgerows and patchwork fields",
+    alt: "Quiet rural road near Callington running through green farmland in summer light",
   };
 
   return (
@@ -14,29 +14,29 @@ export default function LocationPage() {
       currentLocationLabel="Callington"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="Vehicle Hire Callington"
-      heroDescription="Need Vehicle Hire in Callington? We arrange cars, vans, minibuses and trucks for everyday travel, moving jobs, business use and longer journeys across Cornwall and beyond."
-      serviceAreasTitle="Covering Callington and nearby routes"
-      serviceAreasDescription="We support Callington and the surrounding area with flexible vehicle hire for local residents, businesses and customers heading across southeast Cornwall and into Devon."
+      heroTitle="Vehicle Hire in Callington"
+      heroDescription="Vehicle hire in Callington for local business, rural properties, house moves and everyday transport, with cars, vans, minibuses and trucks available across the wider area."
+      serviceAreasTitle="Serving Callington and the surrounding area"
+      serviceAreasDescription="We support Callington and nearby east Cornwall villages with flexible vehicle hire for domestic, trade and business use, with wider coverage across the region when needed."
       infoContentSectionKicker="Planning your hire"
-      infoContentSectionTitle="Practical vehicle hire for Callington journeys"
-      infoContentSectionIntro="Hiring in Callington often comes down to convenience. Some customers need a reliable car for a few days, others need a van for moving items, a minibus for group travel or a truck for heavier work. With good access to nearby towns and onward routes, flexible vehicle hire makes sense here."
-      infoContentBlock1Title="Useful for local and cross-border travel"
-      infoContentBlock1Body="Callington is well placed for journeys toward Saltash, Launceston and Plymouth, so hiring a vehicle can make short-term travel much easier. A car works well for routine trips, while a van or larger vehicle can suit property moves, site work or scheduled deliveries."
-      infoContentBlock2Title="A simpler way to start the hire"
-      infoContentBlock2Body="For customers in Callington, delivery and collection can be a practical option when the day is already full. Instead of fitting collection around other plans, you can have the vehicle brought closer to where the journey starts and returned just as efficiently."
-      infoContentBlock3Title="Choose the vehicle around the job"
-      infoContentBlock3Body="Because Callington sits near key routes between Cornwall and Devon, the right vehicle depends on what the trip involves. Small cars suit day-to-day driving, while vans, minibuses and trucks are better for loads, teams, equipment or larger family travel."
-      bottomCtaTitle="Book vehicle hire in Callington"
-      bottomCtaDescription="From local errands to longer journeys across Cornwall and Devon, we can help arrange the right hire vehicle for Callington customers."
-      secondaryCtaTitle="Discuss your Callington trip"
-      secondaryCtaDescription="Tell us what you need to carry, how many people are travelling and where the route starts, and we will help you find a suitable option."
+      infoContentSectionTitle="Practical vehicle hire advice for Callington journeys"
+      infoContentSectionIntro="Vehicle hire in Callington often comes down to convenience. The town sits between useful east Cornwall routes and the Devon border, so it suits customers needing a car for onward travel, a van for property jobs, a minibus for group outings or a truck for heavier local work."
+      infoContentBlock1Title="Using the main roads around town"
+      infoContentBlock1Body="Callington works well for hires that need flexible road access. The A388 links you north toward Launceston and south toward Saltash, while the A390 gives a straightforward route east to Tavistock and west toward Liskeard and Truro. That makes it a practical pickup point for business runs, home moves and longer cross-county trips."
+      infoContentBlock2Title="Fuel and practical stop planning"
+      infoContentBlock2Body="For day-to-day stops, you will usually find the most useful services around the town centre and on routes leading out toward the A388 and A390. If you are heading farther afield, larger fuel and supermarket stops in Saltash, Tavistock and Liskeard can be useful before returning a van, minibus or truck."
+      infoContentBlock3Title="Good for rural jobs and local days out"
+      infoContentBlock3Body="Callington is a sensible base for reaching villages across the Tamar Valley, local industrial sites and rural properties where a larger vehicle is more useful than a private car. It also suits leisure travel toward Kit Hill, Cotehele and wider Cornwall, especially when you need extra seats or more carrying space."
+      bottomCtaTitle="Plan your Callington hire"
+      bottomCtaDescription="If you need vehicle hire in Callington, let us know the job, route and dates and we will help arrange a suitable vehicle."
+      secondaryCtaTitle="Arrange your Callington booking"
+      secondaryCtaDescription="If you already know your dates and vehicle type, we can help arrange a straightforward hire for Callington and surrounding areas."
       faqs={[
-        { question: "Can you deliver a hire vehicle to Callington?", answer: "Yes, delivery and collection can often be arranged in and around Callington, which is useful if you are short on time or want the vehicle brought to your home or workplace." },
-        { question: "Is one-way hire available from Callington?", answer: "Yes, one-way hire may be available depending on the vehicle and route. It is best to ask about your collection and return points when you book." },
-        { question: "Can I take a Callington hire vehicle abroad?", answer: "In many cases, yes. European travel options depend on the vehicle and destination, so this should be confirmed before the hire starts." },
-        { question: "What kinds of vehicles can I hire in Callington?", answer: "We cover a broad range including cars, vans, minibuses and trucks, so whether you need something for a house move, business job or family journey, there are practical options." },
-        { question: "What do I need when collecting my vehicle?", answer: "Bring your driving licence, your booking details and anything else requested at confirmation. Requirements can vary slightly by vehicle type." },
+        { question: "Do you offer vehicle hire in Yelverton?", answer: "Yes. We provide vehicle hire options for Yelverton including cars, vans, minibuses and trucks, depending on the type of journey you are planning." },
+        { question: "Can a hire vehicle be delivered to Yelverton?", answer: "Delivery and collection may be available, which can be useful if you are based in Yelverton or nearby villages and want to avoid extra travel before your booking starts." },
+        { question: "Is one-way rental possible from Yelverton?", answer: "Selected bookings can be arranged as one-way hires. If your route finishes outside the area, ask us and we will check the available options." },
+        { question: "What licence do I need for a larger vehicle?", answer: "Many vehicles are suitable for standard licence holders, but larger categories can have additional requirements. We will explain what applies before confirming the hire." },
+        { question: "Can I arrange European travel with a Yelverton hire?", answer: "Some vehicles may be taken to Europe if this is agreed in advance. We can confirm suitability and paperwork once we know your travel plans." },
       ]}
     />
   );

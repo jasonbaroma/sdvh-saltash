@@ -6,37 +6,37 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location3-hero",
     src: "/images/callington-hero-country-road.jpeg",
-    alt: "Blue rental car on a rural route near Ivybridge with valley views and moorland backdrop",
+    alt: "South Cornwall road near Looe descending through green hills toward the sea",
   };
 
   return (
     <HomePage
-      currentLocationLabel="Ivybridge"
+      currentLocationLabel="Looe"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="Vehicle Hire Callington"
-      heroDescription="Vehicle Hire Callington for local errands, site work, weekend trips, and practical transport needs. Flexible options across cars, vans, minibuses, and trucks."
-      serviceAreasTitle="Vehicle hire around Callington"
-      serviceAreasDescription="We cover Callington and the surrounding area with flexible vehicle hire for residents, trades, local firms, and customers travelling further across the region."
+      heroTitle="Vehicle Hire in Looe"
+      heroDescription="Vehicle hire in Looe for coastal breaks, local moves, deliveries and day to day travel, with access to cars, vans, minibuses and trucks across the wider area."
+      serviceAreasTitle="Covering Looe and surrounding routes"
+      serviceAreasDescription="We support vehicle hire in Looe and nearby coastal and inland areas, helping customers with holiday travel, moving jobs, business use and planned onward journeys."
       infoContentSectionKicker="Local hire guidance"
-      infoContentSectionTitle="Choosing practical vehicle hire for Callington"
-      infoContentSectionIntro="Callington sits well for both local journeys and cross-county travel, so customers here often need vehicle hire that adapts to changing plans. That might mean extra load space, more seats, or a vehicle better suited to a longer route."
-      infoContentBlock1Title="Think about the roads you will use"
-      infoContentBlock1Body="Callington customers often need vehicles that can handle mixed routes, from town roads to rural lanes and onward travel into Devon or across Cornwall. Picking the right size and style helps keep the hire practical."
-      infoContentBlock2Title="Useful for working days"
-      infoContentBlock2Body="For trade work, gardening jobs, equipment transport, or property maintenance, vans and trucks give you the space and load area that a standard car cannot. That can save repeat trips and make the day more productive."
-      infoContentBlock3Title="Also handy for family travel"
-      infoContentBlock3Body="When the plan is more personal, such as a family outing, airport run, or extra passengers for an event, a larger car or minibus can make the journey more comfortable and easier to organise."
-      bottomCtaTitle="Get the right vehicle in Callington"
-      bottomCtaDescription="Planning a trip from Callington or need a working vehicle for a job? We can help you arrange a hire that fits the route and the task."
-      secondaryCtaTitle="Compare options for Callington"
-      secondaryCtaDescription="From one-day rentals to longer bookings, we can help you work out which vehicle makes the most sense for your Callington journey."
+      infoContentSectionTitle="Practical vehicle hire advice for Looe journeys"
+      infoContentSectionIntro="Looe journeys often need a bit more planning than inland travel, especially in peak season and around the harbour. Hiring the right vehicle can make family trips, holiday changeovers, trade visits and local collections much easier, particularly if you are travelling via the A387 and linking back to wider Cornwall routes."
+      infoContentBlock1Title="Know your main route options"
+      infoContentBlock1Body="Callington drivers often rely on the A388 for routes toward Saltash and Launceston, with the A390 also important for travel across south east Cornwall. If you are hiring for deliveries or site work, those corridors shape most practical journey planning from town."
+      infoContentBlock2Title="Choose carefully for rural access"
+      infoContentBlock2Body="Because Callington serves a wide rural catchment, van hire is often useful for farms, trades and property work in surrounding villages. Some lanes narrow quickly outside the town centre, so it helps to match the vehicle to the roads you will actually be using."
+      infoContentBlock3Title="Set off prepared"
+      infoContentBlock3Body="For longer trips, drivers often stop for fuel and supplies before leaving town rather than waiting until they are deeper into the countryside. That approach is particularly sensible with minibuses, loaded vans or trucks heading onto less built-up routes."
+      bottomCtaTitle="Book your Looe hire"
+      bottomCtaDescription="Speak to us about vehicle hire in Looe and we will help line up the right car, van, minibus or truck for your dates and journey."
+      secondaryCtaTitle="Need help with a Looe booking?"
+      secondaryCtaDescription="If you are comparing options for Looe, get in touch and we will help you choose a suitable vehicle and hire setup."
       faqs={[
-        { question: "What can I hire in Callington?", answer: "Yes, we provide vehicle hire for personal and business use in Callington, including cars, vans, minibuses, and trucks." },
-        { question: "Can I book a vehicle quickly in Callington?", answer: "That depends on the vehicle and the booking length, but many hires can be arranged at short notice if availability allows." },
-        { question: "Is delivery available in the Callington area?", answer: "Yes, delivery is often possible, which can be helpful if the hire is tied to a workday, move, or planned collection." },
-        { question: "Do Callington hires come with unlimited mileage?", answer: "Many rentals include unlimited mileage, though this varies by vehicle type. We will confirm the details before your booking is finalised." },
-        { question: "Can I arrange one-way hire from Callington?", answer: "Yes, selected hires can be arranged on a one-way basis. Let us know your preferred return location and we will check availability." },
+        { question: "Can I arrange vehicle hire in Looe without travelling far to collect it?", answer: "Yes, we can arrange vehicle hire for customers in Looe, with practical options for local collection or delivery depending on the booking and vehicle type." },
+        { question: "What kind of vehicle hire works best for narrow roads around Looe?", answer: "Delivery and collection can often be arranged, which is useful if you are based in town or on surrounding rural routes and want to save time." },
+        { question: "Are there licence checks for bigger vehicles?", answer: "That depends on the vehicle category. We can advise on licence requirements for larger vans, minibuses and trucks before you commit to the booking." },
+        { question: "Can I return the vehicle somewhere else?", answer: "Yes, selected rentals can be set up as one-way hires. Let us know your intended drop-off point and we will check availability." },
+        { question: "Do you offer longer hires for stays, second homes or work in Looe?", answer: "Some vehicles are available for European travel by prior arrangement. It is best to ask early so the right vehicle and paperwork can be prepared." },
       ]}
     />
   );

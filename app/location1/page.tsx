@@ -6,7 +6,7 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location1-hero",
     src: "/images/torpoint-hero-country-road.jpeg",
-    alt: "Grey rental car travelling on a road near Torpoint with harbour water and Cornish slopes behind",
+    alt: "Tidy Cornish lane near Torpoint opening toward the coast in gentle mixed light",
   };
 
   return (
@@ -14,29 +14,29 @@ export default function LocationPage() {
       currentLocationLabel="Torpoint"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="Vehicle Hire Torpoint"
-      heroDescription="Vehicle Hire Torpoint for day trips, home moves, trade jobs, and longer travel plans. Choose from cars, vans, minibuses, and trucks with flexible support."
-      serviceAreasTitle="Serving Torpoint and nearby routes"
-      serviceAreasDescription="We serve Torpoint and nearby parts of south east Cornwall, with flexible vehicle hire for local residents, businesses, and customers planning travel further afield."
-      infoContentSectionKicker="Planning your hire"
-      infoContentSectionTitle="Practical vehicle hire advice for Torpoint journeys"
-      infoContentSectionIntro="Torpoint customers often need vehicle hire that fits around local travel patterns, onward journeys, and practical loading needs. From short local use to wider UK travel, the right rental can save time and reduce hassle."
-      infoContentBlock1Title="Plan around your route"
-      infoContentBlock1Body="Torpoint hires often involve ferry links, cross-river travel, and practical day planning. Booking a vehicle that suits both the route and the load can make a big difference, especially when the day includes timed collections or returns."
-      infoContentBlock2Title="Useful for moves and materials"
-      infoContentBlock2Body="For customers handling house clearances, furniture collection, or trade materials, a van or truck can be more efficient than making repeated smaller trips. We can help match the vehicle to the amount you need to carry."
-      infoContentBlock3Title="Good for shared travel"
-      infoContentBlock3Body="Torpoint is also a good starting point for group outings and family journeys into Cornwall or across into Plymouth. Minibus and car hire can be a straightforward alternative when your own vehicle is too small or not ideal for the trip."
-      bottomCtaTitle="Looking for vehicle hire in Torpoint?"
-      bottomCtaDescription="Whether you need a car for a local journey or a van, minibus, or truck for something bigger, we can help arrange a suitable hire in Torpoint."
-      secondaryCtaTitle="Need help choosing a vehicle?"
-      secondaryCtaDescription="Tell us where you are heading and what you need to carry, and we will point you toward the most suitable rental option for Torpoint."
+      heroTitle="Vehicle Hire in Torpoint"
+      heroDescription="Vehicle Hire Torpoint with flexible access to cars, vans, minibuses and trucks for ferry-linked travel, local jobs, home moves and wider journeys across Cornwall and Plymouth."
+      serviceAreasTitle="Serving Torpoint and nearby areas"
+      serviceAreasDescription="We support bookings in Torpoint and the surrounding south east Cornwall area, including routes that connect with Plymouth, the ferry crossing and nearby coastal communities."
+      infoContentSectionKicker="Useful hire guidance"
+      infoContentSectionTitle="Driving and hire tips for Torpoint"
+      infoContentSectionIntro="Torpoint hires tend to revolve around everyday practicality. Some customers need a van for local moving jobs, others need a car for easier travel into Plymouth, and some need a minibus or larger vehicle for coastal trips and group journeys around the Rame Peninsula."
+      infoContentBlock1Title="Plan around the ferry crossing"
+      infoContentBlock1Body="Torpoint travel often starts with the Torpoint Ferry, so timing matters. If you are heading into Plymouth with a hired vehicle, allow extra time at busy commuter periods and keep the A374 in mind as your main route once you leave the waterfront."
+      infoContentBlock2Title="Top up before longer runs"
+      infoContentBlock2Body="For fuel, drivers in and around Torpoint often top up before longer runs toward Plymouth or west Cornwall. That is worth doing early if you are hiring a van or minibus, especially before weekend traffic builds around the ferry and nearby roads."
+      infoContentBlock3Title="Think ahead for peninsula roads"
+      infoContentBlock3Body="Torpoint is a practical base for access to Maker Heights, Whitsand Bay and the Rame Peninsula, but some roads beyond the town narrow quickly. If you are moving equipment or travelling with a full load, choosing the right vehicle size makes those onward routes much easier."
+      bottomCtaTitle="Arrange vehicle hire in Torpoint"
+      bottomCtaDescription="If you need a vehicle in Torpoint for work, moving or personal travel, we can help arrange the right hire with straightforward booking support."
+      secondaryCtaTitle="Talk through your Torpoint hire"
+      secondaryCtaDescription="Need help choosing between a car, van, minibus or truck for Torpoint travel? Get in touch and we will talk through the options clearly."
       faqs={[
-        { question: "Can I hire more than just vans in Torpoint?", answer: "Yes, Torpoint customers can arrange hire across our wider fleet, including cars, vans, minibuses, and trucks, depending on availability and booking details." },
-        { question: "Do you deliver hire vehicles in Torpoint?", answer: "Delivery is often available and can be especially useful in Torpoint if you want to avoid extra planning around onward travel before your hire begins." },
-        { question: "Is unlimited mileage available from Torpoint bookings?", answer: "Many hires include unlimited mileage, which suits longer trips beyond Torpoint. We will confirm the mileage terms for your chosen vehicle at booking stage." },
-        { question: "Can I return the vehicle somewhere else?", answer: "Yes, one-way rentals can be arranged on selected bookings. Let us know where you want to return the vehicle and we will check what is possible." },
-        { question: "What do I need to hire a vehicle in Torpoint?", answer: "You will need a valid driving licence and the usual booking documents. If anything additional is needed for the vehicle type, we will explain that clearly beforehand." },
+        { question: "What can I hire for use in Torpoint?", answer: "Yes. We offer vehicle hire for Torpoint with options across cars, vans, minibuses and trucks, depending on your journey and licence requirements." },
+        { question: "Can a hire vehicle be delivered in Torpoint?", answer: "Delivery and collection may be available, which can be especially useful around ferry crossings and residential areas where collecting elsewhere is less convenient." },
+        { question: "Do you offer one-way rentals from Torpoint?", answer: "Yes, on selected bookings. One-way hire can suit relocations, work routes or longer journeys that finish outside the Torpoint area." },
+        { question: "Can I hire a larger van or minibus on a normal licence?", answer: "A standard licence is enough for many vehicles, but larger minibuses and some trucks may need extra checks. We will confirm the right option before booking." },
+        { question: "Is European travel available from a Torpoint booking?", answer: "Some vehicles can be used for European travel if arranged in advance. Ask before booking so we can check availability and the required documents." },
       ]}
     />
   );
